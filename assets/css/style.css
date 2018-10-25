@@ -40,13 +40,10 @@ nav {
         nav ul li a:visited:hover {
           background: #2581DC;
           color: #ffffff; }
-        nav ul li a:after,
-        nav ul li a:visited:after {
+        nav ul li a:not(:only-child):after,
+        nav ul li a:visited:not(:only-child):after {
           padding-left: 4px;
           content: ' ▾'; }
-        nav ul li a:last-child:after,
-        nav ul li a:visited:last-child:after {
-          content: ''; }
       nav ul li ul li {
         min-width: 190px; }
         nav ul li ul li a {
@@ -121,3 +118,8 @@ nav {
       transform: rotate(45deg); }
     #nav-toggle.active span:after {
       transform: rotate(-45deg); }
+
+article {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px; }
