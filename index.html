@@ -5,46 +5,120 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
   <!--navigation-->
-  <nav>
-      <div class="nav-mobile">
-        <a id="nav-toggle" href="#!"><span></span></a>
+  <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="#!">Logo</a>
+        </div>
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+          <ul class="nav-list">
+            <li>
+              <a href="#!">Dashboard</a>
+            </li>
+           
+            <li>
+              <a href="#!">Self-Booking</a>
+              <ul class="nav-dropdown">
+                <li>
+                  <a href="#!">Add Booking</a>
+                </li>
+                <li>
+                  <a href="#!">Active Unassigned</a>
+                </li>
+                <li>
+                  <a href="#!">Active Assigned</a>
+                </li>
+                <li>
+                    <a href="#!">Archieved Unassigned</a>
+                  </li>
+                  <li>
+                      <a href="#!">Archieved Assigned</a>
+                    </li>
+                    <li>
+                        <a href="#!">Cancelled</a>
+                      </li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="#!">Client</a>
+              <ul class="nav-dropdown">
+                <li>
+                  <a href="#!">Add Clients</a>
+                </li>
+                <li>
+                  <a href="#!">View Clients</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+                <a href="#!">Driver</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Add Driver</a>
+                  </li>
+                  <li>
+                    <a href="#!">View Driver</a>
+                  </li>
+                </ul>
+              </li>
+            
+              <li>
+                  <a href="#!">Taxis</a>
+                  <ul class="nav-dropdown">
+                    <li>
+                      <a href="#!">Add Vehical</a>
+                    </li>
+                    <li>
+                      <a href="#!">View Vehical</a>
+                    </li>
+                  </ul>
+                </li>
+                
+                <li>
+                    <a href="#!">Billing</a>
+                    <ul class="nav-dropdown">
+                      <li>
+                        <a href="#!">Unbilled</a>
+                      </li>
+                      <li>
+                        <a href="#!">Billed:Unpaid</a>
+                      </li>
+                      <li>
+                          <a href="#!">Billed:Paid</a>
+                        </li>
+                        <li>
+                            <a href="#!">Client Self Billing</a>
+                          </li>
+                    </ul>
+                   
+                  </li>
+                  <ul class ="dash-person">
+                  <li>
+                      <img src="assets/images/person.png" class ="image">
+                        <a href="#">Alex</a>
+                        </li>   
+                      </ul>
+                   
+          </ul>
+          
+        </nav>
       </div>
-      <ul class="nav-list">
-        <li><a href="#!">Dashboard</a></li>
-        <li><a href="#!">Self Booking</a></li>
-        <li><a href="#!">Client</a>
-          <ul class="nav-dropdown">
-            <li><a href="#!">Add Clients</a></li>
-            <li><a href="#!">View Clients</a></li>
-           </ul>
-        </li>
-        <li><a href="#!">Driver</a>
-          <ul class="nav-dropdown">
-            <li><a href="#!">Add Driver</a></li>
-            <li><a href="#!">View Driver</a></li>
-           </ul>
-        </li>
-        <li><a href="#!">Taxis</a>
-          <ul class="nav-dropdown">
-            <li><a href="#!">Add Vehical</a></li>
-            <li><a href="#!">View Vehical</a></li>
-           </ul>
-        </li>
-        <li><a href="#!">Billing</a>
-          <ul class="nav-dropdown">
-            <li><a href="#!">Unbilled</a></li>
-            <li><a href="#!">Billed:Unpaid</a></li>
-            <li><a href="#!">Billed:Paid</a></li>
-            <li><a href="#!">Client Self Billing</a></li>
-           </ul>
-        </li>
-        
-      </ul>
-    </nav>
+    </section>
+    
+    
   <!--/navigation-->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
