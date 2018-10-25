@@ -55,10 +55,14 @@ nav {
           background: $link-hover-color;
           color: $nav-font-color;
         }
-        &:only-child:after {
+        &:after  {
           padding-left: 4px;
           content: ' ▾';
         }
+        &:last-child:after
+{
+  content: '';
+}
       } // Dropdown list
       ul li {
         min-width: 190px;
