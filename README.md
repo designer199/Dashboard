@@ -9,6 +9,6 @@ Dated : 26 oct 2018
 ## Thoughts
 I had to redo the navigation bar since  a lot of redundant rules were used . Styling the bootstrap navigation was challenging as I did it the first time using this approach
 ### Things to be done in nav bar
-- [ ] the navbarbar show be closed automatically when user clicks on any link in menu/dropdown.This implemented but it is working for only the top most menu item.
+- [ ] the navbarbar should be closed automatically when user clicks on any link in menu/dropdown.This implemented but it is working for only the top most menu item.
 
 
