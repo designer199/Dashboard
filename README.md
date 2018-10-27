@@ -16,6 +16,6 @@ I had to redo the navigation bar since  a lot of redundant rules were used . Sty
   
   Dated : 27 oct 2018
   ## Thoughts
-  The Add Booking form is not looking appealing as it should be.I need to work more on styling the elements and changing fonts.
+  Add Booking form is not looking appealing as it should be.I need to work more on styling the elements and changing fonts.
   The inputs are coming out of form border in mobile view.
  
