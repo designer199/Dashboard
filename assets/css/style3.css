@@ -36,4 +36,93 @@
      {
          stroke: white;
      }
+    /*****FORM ELEMENTS***********/
+    .form-container
+    {
+    margin: 5% auto 0 auto;
+    width:95%;
+    background:white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    }
+   
+    #users,#name,#client,#pick-up-city,#location,#taxi-type,#tour-type,#package-type,#reason,#center-code{
+        outline: 0;
+        border-width: 0 0 2px;
+        background:#f2f2f2/* #D3D3D3*/;
+        font-family: 'Poppins', sans-serif;
+        font-size:18px;
+        margin:0 10px 0 10px;
+       
+      }
+      #users:focus,#name:focus,#client:focus,#pick-up-city:focus,#location:focus,#taxi-type:focus,#tour-type:focus,#package-type:focus,#reason:focus,#center-code:focus
+      {
+      
+        background:#e2e0e0/*#d6d4d4/*#FAFFBD*/;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px black;
+      -webkit-transition: all .2s ease-out;
+      -moz-transition: all .2s ease-out;
+      -ms-transition: all .2s ease-out;
+      -o-transition: all .2s ease-out;
+      transition: all .2s ease-out;
+
+      }
+      label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        color: #666666;
+        line-height: 1.5;
+        padding-left: 5px;
+        margin-left:15px;
+    }
+    .add-booking
+    {
+        font-family: Poppins-Bold;
+    font-size: 39px;
+    }
+body
+{
+    background: linear-gradient(45deg, #00dbde, #fc00ff);
+}
+.submitbtn
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0  20px 20px 20px;
+margin:0 0 10% 40%;
+width: 215px;
+height: 33px;
+font-family: Poppins-Medium;
+font-size: 16px;
+color: #fff;
+line-height: 1.2;
+background: -webkit-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+border-radius:7%;
+}
+.form-control:focus {
+    border-color: black;
+   
     
+  }
+  @media (min-width: 576px){
+  .col-sm-9 {
+      max-width:100%;
+  }
+  @media screen and (min-width: 1024px)
+{
+    #users,#name,#client,#pick-up-city,#location,#taxi-type,#tour-type,#package-type,#reason,#center-code
+    {
+        margin:0;
+    }
+    .form-container
+    {
+    margin: 5% auto 5% auto;
+    width:80%;
+}
+label
+{
+    font-size: 15px;
+}
+
+}
